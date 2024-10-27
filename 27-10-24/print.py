@@ -1,0 +1,6 @@
+print("Hello World")
+print(34)
+print("2+23")
+print(345+3245)
+print(0.12314)
+print(True)
