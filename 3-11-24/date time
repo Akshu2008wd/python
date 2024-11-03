@@ -1,0 +1,7 @@
+import datetime
+
+currtime = datetime.datetime.now()
+print(currtime)
+
+import calendar
+print(calendar.calendar(2024))
