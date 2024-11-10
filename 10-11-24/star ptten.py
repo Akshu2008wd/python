@@ -1,8 +1,9 @@
-input= int(input("enter the number"))
+input= int(input("enter the number "))
 
-for i in range(0,input):
-    for j in range(0,i+1):
+for j in range(input,0,-1):
+    for i in range(0,j):
         print("*",end="")
     print()
+    
     
     
