@@ -16,9 +16,7 @@ class Library:
         else:
             print("BOOK ISSUED : THANK YOU KEEP IT WITH CARE AND RETURN ON TIME.\n")
             self.books.remove(bookname)
-            
-            
-            
+           
     def returnBook(self, bookname):
         print("BOOK RETURNED : THANK YOU! \n")
         self.books.append(bookname)
@@ -28,8 +26,8 @@ class Library:
         print("BOOK DONATED : THANK YOU VERY MUCH, HAVE A GREAT DAY AHEAD.\n")
         self.books.append(bookname)
     
-Delhilibrary = Library( ["vistas", "invention", "rich&poor", "indian", "macroeconomics", "microeconomics"])
-print(" WELCOME TO THE DELHI LIBRARY\n")
+Library( ["vistas", "invention", "rich&poor", "indian", "macroeconomics", "microeconomics"])
+
 
 
 
