@@ -35,6 +35,4 @@ c=cat("kitty",3)
 d=dog("chtti" , 5)
 co=cow("belly" , 6)
 
-for animal in (c,d,co):
-    info(c)
 
